@@ -59,6 +59,10 @@ html {
     transition: transform 0.5s;
   }
 
+  .panel .mouse-change:hover {
+    cursor: pointer;
+  }
+
   .panel > *:first-child { /* this line selects all the first children of the parent .panel, meaning all the first paragraphs in a panel! */
     transform: translateY(-100%); 
   } /*moves the first paragraph of every panel to the top off the screen */
